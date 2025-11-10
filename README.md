@@ -1,17 +1,47 @@
+# Dogs API React Project 🐶  
+**Developer:** Abhirekha Thimmasani  
+**Institution:** Lewis University  
+**Assignment:** Lions, Tigers, and Bears, Oh My! (Dogs API – Fetch, Promises & Async/Await)
 
-# Dogs — Fetch, Promises & Async/Await (React)
+---
 
-This is my implementation of the "Dogs, JavaScript & An API" tutorial adapted to React.  
-It uses the Dog CEO API (https://dog.ceo) to fetch dog images by breed and present them in a slideshow.
+## 🎯 Introduction
+This project is based on Brad Schiff’s **“Dogs, JavaScript & An API — Fetch, Promises & Async/Await”** tutorial.  
+It is a web application that fetches dog breed images from a public Dog API and displays them in a responsive slideshow interface.  
+The app demonstrates API handling using modern **JavaScript**, **async/await**, and **React (Vite)**.
 
-## Credits
-This project follows the excellent tutorial by **Brad Schiff**. Full credit to Brad Schiff for the original tutorial and learning guidance.
+---
 
-## How to run
-1. `npm install`
-2. `npm run dev` (development)
-3. `npm run build` then deploy `dist/` to a static host
+## 🧠 Key Learning Objectives
+- Implement asynchronous JavaScript operations with Fetch, Promises, and Async/Await.  
+- Use public RESTful APIs and handle JSON data dynamically.  
+- Integrate modern React front-end using Vite.  
+- Deploy and host the app on **Microsoft Azure Static Web Apps**.  
+- Apply CI/CD automation through **GitHub Actions**.
 
-## License
-This repository is licensed under the MIT License — see LICENSE.
+---
 
+## ⚙️ Technologies Used
+- **React.js** (via Vite)
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **Dog CEO Public API**
+- **Azure Static Web Apps**
+- **GitHub for Version Control**
+
+---
+
+## 🚀 Setup & Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/Abhirekha2000/dogs-api-app
+cd dogs-api-app
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Build for production
+npm run build
